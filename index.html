@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Add Book</h1>
+      <div class="form">
+        <label for="title">Title: </label>
+        <input type="text" id="title" placeholder="Add book" />
+        <label for="author">Author:</label>
+        <input type="text" id="author" placeholder="Add author" />
+        <label for="isbn">ISBN#:</label>
+        <input type="number" id="isbn" placeholder="Add ISBN#" />
+        <button id="submitButton">Submit</button>
+      </div>
+      <div class="table">
+        <table>
+          <tr>
+            <td>Title</td>
+            <td>Author</td>
+            <td>ISBN</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
